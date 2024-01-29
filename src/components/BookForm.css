@@ -1,0 +1,50 @@
+/* components/BookForm.css */
+
+form ,label{
+    /* display: flex; */
+    /* flex-direction:row-reverse ; */
+    /* align-items: center; */
+    max-width: 300px;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s ease-in-out; /* Add transition for a smooth effect */
+  }
+  
+  input:hover {
+    border-color: #3498db; /* Change border color on hover */
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Add transition for a smooth effect */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+  }
+  
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    margin-top: 5px;
+  }
+  
